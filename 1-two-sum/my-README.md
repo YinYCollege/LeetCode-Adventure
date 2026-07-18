@@ -1,0 +1,2 @@
+tldr on the topic
+why does this work?: as we loop through the array, we check if the difference between our target and the current number is already in the complement hash. If it is, then we just return the current index and the index in the hash, if it doesn't match anything then we add the current number and its index as a key-value pair in as a complement so that if future differences equal the complement we can just return the index.
